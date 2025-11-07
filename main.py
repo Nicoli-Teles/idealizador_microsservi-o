@@ -3,7 +3,9 @@ from fastapi.middleware.cors import CORSMiddleware
 import sqlite3
 import bcrypt
 from database import criar_tabelas
+print("Importando o modelo Idealizador de models")
 from models import Idealizador
+print("Modelo Idealizador importado com sucesso!")
 from pydantic import BaseModel
 
 # 🔹 APP
